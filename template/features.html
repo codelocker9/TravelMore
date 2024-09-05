@@ -12,7 +12,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css" rel="stylesheet"/>
     <link href="../static/style.css" rel="stylesheet"/>
 </head>
-<body>
+<body class="bg-secondary" style="--mdb-bg-opacity: 0.5;">
     <header>
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
@@ -39,7 +39,7 @@
                 <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Features</a>
+                <a class="nav-link active" aria-current="page" href="#">Features</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
@@ -73,7 +73,62 @@
   </div>
   <!-- Background image -->
 </header>
+<!-- Body -->
+ <div class="container-fluid">
+    <h1 class="display-3 lead text-center">Ready.. set.. <span class="text-success">pack</span> you bags!</h1>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://www.intrepidtravel.com/adventures/wp-content/uploads/2017/08/china_shanghai_yuyuan-garden-city.jpg" class="card-img-top" alt="Skyscrapers"/>
+      <div class="card-body text-center">
+        <h5 class="card-title text-danger">China</h5>
+        <p class="card-text">
+          This is a wider card with supporting text below as a natural lead-in to
+          additional content. This content is a little bit longer.
+        </p>
+        <a href="#" class="btn btn-outline-success" data-mdb-ripple-init data-mdb-ripple-color="light">Pay a visit</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated <span id="min"></span> mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 text-center">
+        <img fetchpriority="high" class="wp-block-cover__image-background wp-image-5030" alt="paris at spring" src="https://paristickets.tours/wp-content/uploads/2022/09/paris-at-spring.webp" data-object-fit="cover">
+        <div class="card-body">
+        <h5 class="card-title text-primary">Paris</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-outline-success" data-mdb-ripple-init data-mdb-ripple-color="light">Pay a visit</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated <span id="min"></span> mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 text-center">
+      <img src="https://tzassets.bestwestern.com/wp-content/uploads/2022/08/20000801/GettyImages-467829216-1536x1025.jpg" class="card-img-top" alt="Palm Springs Road"/>
+      <div class="card-body">
+        <h5 class="card-title text-warning">Dubai</h5>
+        <p class="card-text">
+          This is a wider card with supporting text below as a natural lead-in to
+          additional content. This card has even longer content than the first to show
+          that equal height action.
+        </p>
 
+        <a href="#" class="btn btn-outline-success" data-mdb-ripple-init data-mdb-ripple-color="light">Pay a visit</a>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated <span id="min"></span> mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+</div>
+<!-- Body -->
 <footer class="footer text-center text-lg-start bg-secondary text-muted" style="--mdb-bg-opacity: 0.5;">
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <div class="me-5 d-none d-lg-block">
