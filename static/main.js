@@ -6,3 +6,9 @@ document.getElementById("year").innerHTML = year;
 const m = new Date();
 let minutes = m.getMinutes();
 document.getElementById("min").innerHTML = minutes;
+
+function delayedPopup() {
+    setTimeout(() => {
+        alert("This is a delayed popup!");
+    }, 2000);
+}
